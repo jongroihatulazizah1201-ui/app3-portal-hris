@@ -144,7 +144,7 @@ function FormulirMasuk() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="isian"
-            placeholder="contoh: wulan@sedap.id atau dina@sedap.id"
+            placeholder="nama@sedap.id"
           />
           {galat.email && <p className="galat">{galat.email}</p>}
         </div>
@@ -195,11 +195,6 @@ function FormulirMasuk() {
         </p>
       )}
 
-      <div className="mt-6 rounded-xl border border-tinta/10 bg-krem/70 p-3 text-xs text-tinta/80 space-y-1">
-        <p className="font-bold">Akun Demo Pengujian:</p>
-        <p>• HRD: <span className="font-mono font-semibold">wulan@sedap.id</span> (sandi: <span className="font-mono">sedap123</span>)</p>
-        <p>• Karyawan: <span className="font-mono font-semibold">dina@sedap.id</span> (sandi: <span className="font-mono">sedap123</span>)</p>
-      </div>
 
       <p className="mt-6 text-center text-sm font-medium text-redup">
         Belum punya akun?{" "}
